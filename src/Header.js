@@ -2,6 +2,7 @@ import React from 'react'
 import './header.css'
 import SearchIcon from '@material-ui/icons/Search';
 
+
 function Header() {
     return (
         <div className="header">
