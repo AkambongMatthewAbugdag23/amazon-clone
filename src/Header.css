@@ -13,3 +13,8 @@
     margin: 0 20px;
     margin-top:10px;
 }
+.header__searchIcon {
+    padding:5px;
+    background-color:#fff;
+    border-bottom:1px solid lightgray;
+}
