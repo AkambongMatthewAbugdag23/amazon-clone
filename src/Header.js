@@ -1,7 +1,6 @@
 import React from 'react'
 import './header.css'
-import SearchIcon from '@material-ui/icons/Search';
-
+import SearchIcon from '@mui/icons-material/Search';
 
 
 function Header() {
