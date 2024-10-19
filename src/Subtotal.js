@@ -24,7 +24,7 @@ function Subtotal() {
         thousandSeparator={true}
         prefix={"$"}
           />
-            <button>Proceed to Checkout</button>
+            <button className="subtotal_button">Proceed to Checkout</button>
     </div>
   )
 }
