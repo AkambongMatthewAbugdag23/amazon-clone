@@ -1,0 +1,31 @@
+<Router>
+      <div className="app">
+        <Switch>
+          <Route path="/checkout">
+            <Header />
+            <Checkout />
+          </Route>
+          
+          <Route path="/">
+            <Header />
+            <Home />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
+
+
+    <Route path="/orders">
+        <Header />
+        <Orders />
+      </Route>
+      <Route path="/login">
+        <Login />
+      </Route>
+
+      <Route path="/payment">
+        <Header />
+        <Elements stripe={promise}>
+          <Payment />
+        </Elements>
+      </Route>
