@@ -2,12 +2,20 @@ import React from 'react'
 import './header.css'
 import SearchIcon from '@mui/icons-material/Search';
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
+import { Link } from 'react-router-dom';
 
 
 function Header() {
     return (
         <div className="header">
-            <img className="header__logo" src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" alt="amazon-logo"/>
+            <Link to="/">
+              <img 
+               className="header__logo" 
+               src="http://pngimg.com/uploads/amazon/amazon_PNG11.png" 
+               alt="amazon-logo"
+              />
+            </Link>
+            
             <div className="header__search">
                 <input className="header__searchInput" type="text" />
                 <SearchIcon className="header__searchIcon" />
