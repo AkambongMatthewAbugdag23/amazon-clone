@@ -13,6 +13,7 @@ function App() {
       <Header />
       <div className="app">
         <Routes>
+          {/*Adding the routes using React props */}
           <Route path="/checkout" element={<Checkout />} />
           
           <Route path="/" element={<Home />} />

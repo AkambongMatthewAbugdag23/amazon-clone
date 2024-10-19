@@ -12,6 +12,7 @@ function Checkout() {
               />
               <div className="">
                   <h2 className="checkout_title">Your Shopping Basket</h2>
+                  {/*Using React components fromn the pa rent */}
                   {/* BasketItem */}
                   {/* BasketItem */}
                   {/* BasketItem */}
@@ -21,7 +22,6 @@ function Checkout() {
               </div>
           </div>
             <div className="checkout__right">
-              <h2>The subtotal will go here</h2>
               <Subtotal />
             </div>
     </div>
